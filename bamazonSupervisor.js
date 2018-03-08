@@ -32,7 +32,7 @@ const questions = [
 ]
 var whereClause = "";
 // Initialize
-connection.connect(function(err){;
+connection.connect(function(err){
     if (err){throw err};
     promptUser();
 });
