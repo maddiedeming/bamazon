@@ -11,7 +11,6 @@ const connection = mysql.createConnection({
     password : password,
     database : 'bamazon'
 });
-const query = connection.query;
 var whereClause = "";
 // Update Order
 function updateOrder(itemId,numberOfUnits,whereClause){

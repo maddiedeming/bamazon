@@ -11,7 +11,6 @@ const connection = mysql.createConnection({
     password : password,
     database : 'bamazon'
 });
-const query = connection.query;
 const questions = [
     {
         type: "list",
