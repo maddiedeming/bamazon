@@ -75,7 +75,7 @@ node bamazonSupervisor.js
     - [x] Allow the Manager to "add more" of any item currently in the store.
   - [x] `Add New Product`
     - [x] Allow the Manager to add a completely new Product to the store.
-### Supervisor {Final Level}
+### Supervisor (Final Level)
 - [x] Create a new MySQL table called departments. Your table should include the following columns:
   - [x] `DEPARTMENT_ID` (Unique ID for each Department)
   - [x] `DEPARTMENT_NAME` (Name of Department)
