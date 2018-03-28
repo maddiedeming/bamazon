@@ -15,8 +15,8 @@ npm install
 ```
 mysql -u <Your MySQL Username> -p
 <Your MySQL Password>
-\. \db\schema.sql
-\. \db\seeds.sql
+\. schema.sql
+\. seeds.sql
 \q
 ```
 ### .env File
