@@ -1,14 +1,12 @@
 // Global Variables
 require("dotenv").config();
-const keys = require("./keys.js");
-const password = keys.mySQL.password;
 const inquirer = require("inquirer");
 const ui = new inquirer.ui.BottomBar();
 const mysql = require("mysql");
 const connection = mysql.createConnection({
-    host     : 'localhost',
-    user     : 'root',
-    password : password,
+    host     : process.env.DB_HOST,
+    user     : process.env.DB_USER,
+    password : process.env.DB_PASS,
     database : 'bamazon'
 });
 const questions = [
