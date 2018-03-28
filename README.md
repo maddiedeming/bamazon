@@ -13,10 +13,10 @@ npm install
 ```
 ### Setup Database
 ```
-mysql -u [Your MySQL Username] -p
-[Your MySQL Password]
-\. schema.sql
-\. seeds.sql
+mysql -u <Your MySQL Username> -p
+<Your MySQL Password>
+\. \db\schema.sql
+\. \db\seeds.sql
 \q
 ```
 ### .env File
@@ -28,7 +28,8 @@ mysql -u [Your MySQL Username] -p
     DB_USER=root
 
     DB_PASS=password
-3. Edit any of the values above to coordinate with your MySQL Database.
+    
+3. Edit any of the values in the brackets above to coordinate with your MySQL Database.
 ## Commands
 ### Customer
 ```
