@@ -22,13 +22,11 @@ mysql -u <Your MySQL Username> -p
 ### .env File
 1. Create a new file and save as ".env" in the root directory.
 2. Copy and paste the following into the .env file:
-
+```
     DB_HOST=localhost
-
     DB_USER=root
-
     DB_PASS=password
-    
+```
 3. Edit any of the values in the brackets above to coordinate with your MySQL Database.
 ## Commands
 ### Customer
