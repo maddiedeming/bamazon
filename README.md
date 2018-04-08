@@ -9,6 +9,7 @@ In this activity, you'll be creating an Amazon-like storefront with the MySQL sk
 ### Install Locally
 ```
 git clone https://github.com/maddiedeming/bamazon.git
+cd bamazon/
 npm install
 ```
 ### Setup Database
