@@ -43,7 +43,7 @@ node bamazonManager.js
 node bamazonSupervisor.js
 ```
 ## Requirements
-### Customer (Minimum)
+### Customer
 - [x] Create a MySQL Database called `bamazon`.
 - [x] Then create a Table inside of that database called `products`.
 - [x] The `products` table should have each of the following columns:
@@ -64,7 +64,7 @@ node bamazonSupervisor.js
   - [x] However, if your store does have enough of the product, you should fulfill the Customer's order.
     - [x] This means updating the SQL database to reflect the remaining quantity.
     - [x] Once the update goes through, show the Customer the total cost of their purchase.
-### Manager (Next Level)
+### Manager
 - [x] Create a Node application called `bamazonManager.js`.
 - [x] The app should then prompt users with a list of menu options:
   - [x] `View Products for Sale`
@@ -75,7 +75,7 @@ node bamazonSupervisor.js
     - [x] Allow the Manager to "add more" of any item currently in the store.
   - [x] `Add New Product`
     - [x] Allow the Manager to add a completely new Product to the store.
-### Supervisor (Final Level)
+### Supervisor
 - [x] Create a new MySQL table called departments. Your table should include the following columns:
   - [x] `DEPARTMENT_ID` (Unique ID for each Department)
   - [x] `DEPARTMENT_NAME` (Name of Department)
